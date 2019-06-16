@@ -10,7 +10,7 @@ if (isset($_post['submit'])) {
 	$agreement = $_post['agreement'];
 	$dealer = $_post['dealer'];
 
-	$mailTo = "16g202marketing@chci.com.tw";
+	$mailTo = "nancy.hsu@chci.com.tw";
 	$headers = "From: Motorola Solutions Promotion ".$mailFrom;
 	$txt = "You have received an e-mail from ".$name.".\n\n".$companyname;
 
